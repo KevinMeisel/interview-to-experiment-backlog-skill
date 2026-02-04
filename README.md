@@ -27,13 +27,13 @@ Copy the folder into your skills directory. The core instructions live in `SKILL
 
 ## Benchmark results
 
-Evaluated using [Upskill](https://github.com/upskill):
+Evaluated using [Upskill](https://github.com/huggingface/upskill):
 
 ### Accuracy (pass rate)
-![Accuracy](img/Success Metric Screenshot.png)
+![Accuracy](img/success-metric-screenshot.png)
 
 ### Token usage (cost proxy)
-![Cost](img/Token Metric Screenshot.png)
+![Cost](img/token-metric-screenshot.png)
 
 - **Sonnet is the interesting one:** token usage *drops* while accuracy *improves* (!)
     - The skill makes Sonnet more direct and concise while still meeting the rubric.
